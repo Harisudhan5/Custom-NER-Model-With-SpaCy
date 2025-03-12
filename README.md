@@ -3,6 +3,9 @@
 
 This repository contains a script for training any custom NER model easily using a SpaCy setup without worrying about more complicated configurations. The only requirement is a well annotated data for training.
 
+<p align="center">
+  <img src="image.png" alt="Image">
+</p>
 
 ### Clone the Repository
 ```bash
@@ -54,7 +57,7 @@ The trained model will be saved as ner inside the Model Directory.
 
 ### Testing the Fine-Tuned Model
 
-Once the model is trained, run inference.py to test the results
+Once the model is trained, run inference.py to test the results with your data
 
 ```bash 
 python inference.py
